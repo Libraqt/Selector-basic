@@ -1,5 +1,104 @@
 /* styles.css */
 
+body { 
+background-color:rgb (245,239, 255);
+color: #302b3d;
+font-family:"DM San",arial, sans-serif;
+margin: 0;
+padding: 40px 20px;
+}
+
+
+article {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 0 18px 50px rgba(75, 54, 110, 0.12);
+}
+p{
+    color: rgba(48, 43, 61, 0.72);
+    font-size: 1.05rem;
+    line-height:1.7; 
+}
+
+h1,
+h2,
+h3 {
+    color:#41345c
+    font-family:"Dm sans", Arial, sans-serif;
+    border-bottom:2px solid rgb(226,214,247);
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+h1 { 
+    font-size: 2.8rem;
+    margin-bottom: 18px;
+    line-height: 1.05;
+    color:#6e4bc3
+}
+
+h2{
+    margin-top: 40px;
+
+}
+
+h3{
+    margin-top: 28px;
+  color: rgb(194,79,126);
+}
+#site-title{
+  display: in-line-block;
+  background-color: rgb(225,109,154);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+  padding:9px 15px;
+  boarder-radius: 999px;
+  margin-bottom: 18px;
+}
+
+.note{
+    background-color: rgb(233,249,228);
+    color:#33402f
+    boarder: 2px solid white
+    boarder-left: 6px solid rgb(116, 185, 118);
+    padding: 18px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+    boarder-radius: 14px;
+    clear:both;
+}
+
+.note strong{
+    color: #d74f87;
+}
+
+h1 + p {
+    font-size:1.2rem;
+    font-weight:600;
+    color: rgba(48,61,0.88);
+}
+
+.cat{
+    width:300px;
+    height:auto;
+    float:right;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    border-radius:22px;
+    box-shadow:0 10px 20px rgba(67,48,104,0.18)
+transition:transfrom 0.2s ease;
+
+
+}
+.cat:hover{
+    transform:rotate(-2deg) scale(1.05);
+}/* styles.css */
+
 /*
     Week 3 — CSS Selector Playground
 
